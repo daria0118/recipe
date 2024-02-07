@@ -1,0 +1,168 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+    font-family: 'Outfit', sans-serif;
+    line-height: 1.4;
+}
+ul, p {
+	font-size: 16px;
+	color: hsl(30, 10%, 34%);
+}
+h1, h2 {
+	font-family: 'Young Serif', sans-serif;
+}
+h2 {
+	color: hsl(14, 45%, 36%);
+	padding: 16px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 54%, 90%);
+    padding: 70px;
+}
+.recipe {
+	position: relative;
+	width: 700px;
+	background-color: hsl(0, 0%, 100%);
+	padding: 35px 35px;
+	border-radius: 20px;
+
+}
+.kartinka img {
+	position: relative;
+	width: 100%;
+	border-radius: 10px;
+}
+
+h1 {
+	margin-top: 20px;
+}
+
+.zag p {
+	margin: 20px 0;
+}
+
+.time {
+	margin: 10px;
+	background-color: hsl(330, 100%, 98%);
+	border-radius: 10px;
+	padding: 20px 20px;
+	line-height: 2;
+}
+.time h3 {
+	color:hsl(332, 51%, 32%);
+}
+
+.time ul {
+	margin-left: 25px;
+}
+
+span {
+	font-weight: 700;
+}
+
+.ingredients ul {
+	line-height: 2;
+	margin-left: 20px;
+	margin-bottom: 20px;
+
+}
+
+hr {
+	color: hsl(30, 18%, 87%, 20%);
+}
+.instructions {
+	margin-bottom: 20px;
+}
+.instructions .punkt {
+	color: hsl(14, 45%, 36%);
+	font-weight: 600;
+	margin-right: 15px;
+}
+.instructions .item {
+	display: flex;
+}
+
+.nutrition p {
+	margin-bottom: 10px;
+}
+
+.nutrition .table .item {
+	display: flex;
+	border-bottom: 1px solid hsl(30, 18%, 87%);
+	padding: 10px 10px 5px 20px;
+}
+.nutrition .table .item:last-child {
+	border-bottom: none;
+}
+
+.nutrition .item .zir {
+	font-weight: 600;
+	color: hsl(14, 45%, 36%);
+}
+
+.nutrition .item > * {
+	width: 100px;
+	margin-right: auto;
+}
+
+@media (max-width: 540px) {
+	.container {
+		padding: 0;
+	}
+	.recipe {
+		padding: 0;
+		border-radius: 0;
+	}
+
+	.kartinka img {
+		padding: 0;
+		border-radius: 0;
+	}
+
+	.zag {
+		padding:  20px 20px 10px 20px;
+		}
+	}
+	.time {
+		margin:0 20px;
+	}
+	.ingredients {
+		padding:  20px 20px 10px 20px;
+	}
+
+	.step {
+		padding:  20px 20px 10px 20px;
+	}
+
+	.nutrition {
+		padding:  20px;
+	}
+	hr {
+	margin: 0 30px;
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
